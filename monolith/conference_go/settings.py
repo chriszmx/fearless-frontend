@@ -35,6 +35,13 @@ ALLOWED_HOSTS = ["localhost", "monolith"]
 
 AUTH_USER_MODEL = "accounts.User"
 
+DJWTO = "TWO-COOKIES"
+
+DJWTO_ACCESS_TOKEN_LIFETIME = None
+
+CSRF_TRUSTED_ORIGINS = ["http://locaclhost:3000"]
+
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -49,6 +56,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'djwto',
 ]
 
 MIDDLEWARE = [
