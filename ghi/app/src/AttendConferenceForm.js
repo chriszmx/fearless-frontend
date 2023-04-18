@@ -81,7 +81,7 @@ function AttendConferenceForm() {
           <img
             width="300"
             className="bg-white rounded shadow d-block mx-auto mb-4"
-            src="/logo.svg"
+            src="http://localhost:3000/images/logo.svg"
           />
         </div>
         <div className="col">
