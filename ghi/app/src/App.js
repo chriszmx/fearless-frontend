@@ -10,23 +10,17 @@ function App(props) {
   }
   return (
     <Fragment>
-    <Nav />
-    <div className="container">
-      <ConferenceForm />
-      {/* <LocationForm /> */}
-      {/* <AttendeesList attendees={props.attendees} /> */}
-    </div>
+      <Nav />
+      <div className="container">
+        <ConferenceForm />
+        {/* <LocationForm /> */}
+        {/* <AttendeesList attendees={props.attendees} /> */}
+      </div>
     </Fragment>
   );
 }
 
 export default App;
-
-
-
-
-
-
 
 // function App(props) {
 //   if (props.attendees === undefined) {
